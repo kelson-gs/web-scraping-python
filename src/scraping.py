@@ -1,2 +1,1 @@
-print("hello world!")
-print("are ok!")
+print("webscraping initialized !!!!")
