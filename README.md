@@ -23,22 +23,25 @@ A ideia foi acessar o sistema da Embraesp (geoembraesp.com.br), realizar login, 
 ⚙️ Como rodar o projeto
 
 1. Clone o repositório
+    ```
     git clone https://github.com/kelson-gs/web-scraping-python.git
     cd web-scraping-python
-
+    ```
 3. Instale as dependências
+    ```
     pip install -r requirements.txt
-
-4. Configure suas credenciais
+    ```
+5. Configure suas credenciais
 
     No código, altere estas linhas para o seu usuário e senha válidos:
-
+    ```
     username_input.send_keys("email")
     password_input.send_keys("senha")
-
-5. Rode o script
+    ```
+6. Rode o script
+   ```
     python main.py
-
+   ```
 📂 Saída dos dados
 
 Um arquivo CSV será criado na raiz do projeto com o nome da zona pesquisada.
